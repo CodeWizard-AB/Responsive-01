@@ -1,6 +1,7 @@
 /* ? HEADER STYLE RULES */
 
 header {
+	max-width: 100%;
 	background: var(--HERO-BG);
 }
 
@@ -49,7 +50,7 @@ img[alt="mode"] {
 }
 
 .banner_container__content h1 {
-	font-size: 7rem;
+	font-size: 6.8rem;
 	font-weight: 700;
 	margin: 1rem 0 2rem;
 	line-height: 1.5;
