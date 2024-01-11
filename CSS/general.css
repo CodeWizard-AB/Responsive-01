@@ -18,13 +18,19 @@ html {
 	color: var(--FONT-COLOR);
 }
 
+button {
+	background: transparent;
+	border: none;
+	outline: none;
+}
+
 a {
 	text-decoration: none;
-  color: var(--FONT-COLOR);
+	color: var(--FONT-COLOR);
 }
 
 img {
-  width: 100%;
+	width: 100%;
 }
 
 /* ? COMMON STYLE RULES */
@@ -32,7 +38,5 @@ img {
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
-  padding: 0 3.2rem;
+	padding: 0 3.2rem;
 }
-
-
