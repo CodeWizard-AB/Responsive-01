@@ -26,6 +26,10 @@
 	.nav_container__buttons button {
 		display: block;
 	}
+
+	.banner_container__content h1 {
+		font-size: 4.8rem;
+	}
 }
 
 /* * DEVICES - TABELT / LAPTOP */
@@ -38,8 +42,8 @@
 	.banner_container {
 		height: auto;
 		flex-direction: column-reverse;
-		gap: 2rem;
-		padding: 0 10rem;
+		gap: 5rem;
+		padding: 0 5rem;
 	}
 
 	.nav_container li {
@@ -56,5 +60,9 @@
 
 	html {
 		font-size: 56.25%;
+	}
+
+	.banner_container__image img {
+		width: 90%;
 	}
 }
