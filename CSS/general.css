@@ -1,0 +1,38 @@
+/* ? GENERAL STYLE RULES */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--BUTTON-COLOR: #2a4dd0;
+	--FONT-COLOR: #223344;
+	--HERO-BG: #f2f9fe;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Poppins", sans-serif;
+	color: var(--FONT-COLOR);
+}
+
+a {
+	text-decoration: none;
+  color: var(--FONT-COLOR);
+}
+
+img {
+  width: 100%;
+}
+
+/* ? COMMON STYLE RULES */
+
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+

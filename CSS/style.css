@@ -1,0 +1,57 @@
+/* ? HEADER STYLE RULES */
+
+/* * NAVIGATION SECTION STYLE */
+
+.nav_container {
+	height: 15vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav_container__content {
+	list-style-type: none;
+	display: flex;
+	gap: 4rem;
+	align-items: center;
+}
+
+.nav_container li {
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+/* * BANNER SECTION STYLE */
+
+.banner_container {
+	display: flex;
+	align-items: center;
+}
+
+.banner_container__content h1 {
+	font-size: 7rem;
+	font-weight: 700;
+	margin: 1rem 0 2rem;
+}
+
+.banner_container__content h3 {
+	font-size: 1.8rem;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.banner_container__content p {
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+.banner_container__content___buttons,
+.banner_container__content___benefits {
+	display: flex;
+  gap: 2rem;
+}
+
+.banner_container__content___benefits figure {
+  display: flex;
+  font-size: 1.4rem;
+}
