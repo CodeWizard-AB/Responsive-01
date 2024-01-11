@@ -10,7 +10,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 3rem 0;
+	padding: 3rem 3.2rem;
 }
 
 .nav_container__content {
@@ -39,7 +39,7 @@ img[alt="mode"] {
 /* * BANNER SECTION STYLE */
 
 .banner {
-	padding: 4rem 0;
+	padding: 6rem 3.2rem;
 }
 
 .banner_container {
@@ -56,9 +56,9 @@ img[alt="mode"] {
 }
 
 .banner_container__content h3 {
-	font-size: 1.8rem;
-	letter-spacing: 1px;
-	font-weight: 500;
+	font-size: 1.6rem;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .banner_container__content p {

@@ -18,6 +18,14 @@
 	html {
 		font-size: 56.25%;
 	}
+
+	.nav_container__buttons img {
+		display: none;
+	}
+
+	.nav_container__buttons button {
+		display: block;
+	}
 }
 
 /* * DEVICES - TABELT / LAPTOP */
@@ -31,7 +39,7 @@
 		height: auto;
 		flex-direction: column-reverse;
 		gap: 2rem;
-    padding: 0 10rem;
+		padding: 0 10rem;
 	}
 
 	.nav_container__buttons img {
