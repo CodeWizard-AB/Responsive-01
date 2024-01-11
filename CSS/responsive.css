@@ -8,7 +8,7 @@
 	.banner_container {
 		height: auto;
 		flex-direction: column-reverse;
-		gap: 2rem;
+		gap: 4rem;
 	}
 
 	.banner_container__content {
@@ -16,7 +16,7 @@
 	}
 
 	html {
-		font-size: 56.25%;
+		font-size: 50%;
 	}
 
 	.nav_container__buttons img {
@@ -42,11 +42,19 @@
 		padding: 0 10rem;
 	}
 
+	.nav_container li {
+		font-size: 1.4rem;
+	}
+
 	.nav_container__buttons img {
 		display: block;
 	}
 
 	.nav_container__buttons button {
 		display: none;
+	}
+
+	html {
+		font-size: 56.25%;
 	}
 }
