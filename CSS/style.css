@@ -7,10 +7,10 @@ header {
 /* * NAVIGATION SECTION STYLE */
 
 .nav_container {
-	height: 15vh;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 3rem 0;
 }
 
 .nav_container__content {
@@ -25,21 +25,27 @@ header {
 	font-weight: 600;
 }
 
-.nav_container figure:last-child {
+img[alt="mode"] {
 	background: #111729;
 	padding: 0.3rem 0.6rem;
 	display: grid;
 	place-items: center;
 }
 
+.nav_container__buttons button {
+	display: none;
+}
+
 /* * BANNER SECTION STYLE */
+
+.banner {
+	padding: 4rem 0;
+}
 
 .banner_container {
 	display: flex;
 	align-items: center;
 	gap: 10rem;
-	padding: 5rem 0;
-	max-height: calc(100vh - 15vh);
 }
 
 .banner_container__content h1 {

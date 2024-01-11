@@ -1,0 +1,44 @@
+/* * MOBILE DEVICE */
+
+@media screen and (max-width: 776px) {
+	.nav_container__content {
+		display: none;
+	}
+
+	.banner_container {
+		height: auto;
+		flex-direction: column-reverse;
+		gap: 2rem;
+	}
+
+	.banner_container__content {
+		padding: 0 5rem;
+	}
+
+	html {
+		font-size: 56.25%;
+	}
+}
+
+/* * DEVICES - TABELT / LAPTOP */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.nav_container__content {
+		display: flex;
+	}
+
+	.banner_container {
+		height: auto;
+		flex-direction: column-reverse;
+		gap: 2rem;
+    padding: 0 10rem;
+	}
+
+	.nav_container__buttons img {
+		display: block;
+	}
+
+	.nav_container__buttons button {
+		display: none;
+	}
+}
